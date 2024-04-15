@@ -3,7 +3,7 @@ let nome = prompt("Digite seu nome: ")
 let idade = prompt("Digite sua idade:")
 
 //MENSAGEM: Digite as horas que você trabalha por dia:
-let horasTrabalho = prompt("Digite as horas que você trabalha por dia")
+let horasTrabalho = prompt("Digite as horas que você trabalha por dia:")
 let salarioDia = prompt("Digite o seu salário diário:")
 
  //Verificando as variáveis
@@ -13,7 +13,7 @@ console.log(typeof salarioDia)
 
 //Convertendo o que é necessário
 let horasTrabNumber = Number(horasTrabalho)
-lets salDiaNumber = Number(salarioDia)
+let salDiaNumber = Number(salarioDia)
 
 //Processando valores
 let valorHoraNumber = horasTrabNumber/salDiaNumber
