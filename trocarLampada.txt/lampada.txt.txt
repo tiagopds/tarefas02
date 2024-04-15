@@ -1,0 +1,9 @@
+1- ir a ferragem
+2- comprar a lâmpada
+3- retornar pra casa 
+4- desligar o interruptor
+5- pegar a escada 
+6- subir nos degraus
+7- segurar o suporte e girar a lâmpada para retiar 
+8- pegar a lâmpada nova, segurar o suporte e girar para instalar a nova
+10- ligar o interruptor

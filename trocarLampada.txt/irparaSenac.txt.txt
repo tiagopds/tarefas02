@@ -1,0 +1,9 @@
+1- sair de casa
+2- ir para  a garagem
+3- abrir o carro
+4- entra no carro
+5- dar partida no motor
+6- seguir o caminho para o senac
+7- chegar ao destino
+8- entrar no senac
+9- 
