@@ -1,0 +1,42 @@
+Exercicíos: 01
+const bool1 = true
+Exercicíos: 01
+Leia o código abaixo. Indique todas as mensagens impressas no console, SEM EXECUTAR o programa?
+const bool2 = false
+const bool3 = !bool2
+
+let resultado = bool1 && bool2                                                
+                                                                         
+console.log("false",resultado)
+                                                                      
+resultado = bool2 && bool3
+console.log("false",resultado)
+
+resultado = !resultado && (bool1 || bool2)
+console.log("true",resultado)
+                                                                           
+console.log("true",typeof resultado)
+
+                                                                           
+
+Exercicíos: 02
+Seu colega se aproxima de você falando que o código dele não funciona como devia.Vamos ajudá-lo:
+consegue perceber algum problema? O que será impresso no console? 
+
+let primeiroNumero = prompt("Digite um numero!")
+let segundoNumero = prompt("Digite outro numero!")
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma)
+
+resultado correto:
+let num1 = Number(prompt("Digite um numero!"))
+let num2 = Number(prompt("Digite outro numero!"))
+
+const soma = num1+num2
+console.log(soma)
+alert(soma)
+
+Exercicíos: 03
+
