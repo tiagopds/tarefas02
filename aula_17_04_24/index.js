@@ -21,7 +21,7 @@ c) **Imprima no console** a seguinte mensagem:"Sua idade é maior do que a do se
 d) **Imprima no console** a diferença de idade (não tem problema se sair um número negativo)
 
 */
-
+/*
 let idade = Number (prompt("Qual sua idade:"))//Pergunte a idade do usuário
 let idadeAmigo = Number (prompt("Qual idade do seu amigo:"))//Pergunte a idade do seu melhor amigo ou da sua melhor amiga
 
@@ -32,7 +32,50 @@ alert(idadeAmigo)
 alert (`Sua idade é maior do que do seu amigo? ${resultado}`)
 diferença = idade - idadeAmigo
 alert(`Diferença de idade ${diferença}`)
-/*
-Imprima no console a seguinte mensagem:"Sua idade é maior do que a do seu melhor amigo?", 
-seguido pela resposta (`true` ou `false`)
 */
+
+/*2-2. Faça um programa que:
+    
+a) Peça ao usuário que insira um número **par**
+    
+b) Imprima na console **o resto da divisão** desse número por 2.
+
+c) Teste o programa com diversos números pares. Você notou um padrão? Escreva em um comentário de código.
+
+d) O que acontece se o usuário inserir um número ímpar? Escreva em um comentário de código
+*/
+
+/*//let nome = prompt("Qual é o seu nome")
+//let cor = prompt("Qual sua cor favorita?:")
+
+//alert(`meu nome é ${nome} e minha cor é : ${cor}`)
+
+let nome = prompt("Digite seu nome:")
+let cor = prompt("Digite sua cor favorita")
+
+// Mostrar a mensagem na tela
+
+alert("A cor favorita de " + nome  + " é " + cor)
+alert(`A cor favorita de ${nome} é ${cor}`)*/
+
+//outra atividade de Strings 
+
+/*let frase = prompt("Digite uma frase")
+console.log(frase.toUpperCase)
+console.log(frase.replaceAll("o","i"))
+console.log(frase.length)
+console.log(frase.replaceAll("o","i")).toUpperCase().frase.replaceAll("H","P")
+alert(frase)*/
+
+//Criando Arrays exercicíos:03
+//const raçasDeCachorro = ["pastor alemao","buldoque","labrador","poodle","maltes"]
+//let optionRaca = prompt("Digite um número de 0 a 4:")
+//alert(raçasDeCachorro[optionRaca])
+
+//exercicíos:04
+let Numbers = [1,2,3,4,5,6,]
+console.log(Numbers.length)
+console.push(7)
+Numbers.splice(3,2)
+console.log(Numbers.length)
+alert()
