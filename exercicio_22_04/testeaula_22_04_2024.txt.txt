@@ -1,0 +1,30 @@
+
+01 -  Indique todas as mensagens impressas no console, SEM EXECUTAR o programa.
+
+let array
+console.log('a. ', array)  // Resultado: a.  undefined
+
+array = null
+console.log('b. ', array)  // Resultado: b.  null
+
+array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+console.log('c. ', array.length)                   // Resultado:c.  11
+
+let i = 0
+console.log('d. ', array[i])   // Resultado:d.  3
+
+array[i+1] = 19
+console.log('e. ', array)  // Resultado: e.  (11) [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+const valor = array[i+6]
+console.log('f. ', valor)  // Resultado: f.  9
+
+
+02 -  Leia o código abaixo com atenção:
+const frase = prompt("Digite uma frase")  // imprimir a frase digitada."Subi num ônibus em Marrocos"
+
+console.log(frase.toUpperCase(), frase.length)  // vai fazer a troca de todas as letras minúsculas por letras maiúsculas.
+console.log(frase.replaceAll("A", "I"), frase.length)  // faz a troca da letra "a" por letra "i".
+
+Qual será o valor impresso no console se a entrada do usuário for: "Subi num ônibus em Marrocos" ? // faz a troca da letra "a" por letra "i".
+                                                                    Resultado: "Subi num ônibus em Mirrocos".

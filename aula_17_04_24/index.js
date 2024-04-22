@@ -73,9 +73,9 @@ alert(frase)*/
 //alert(raçasDeCachorro[optionRaca])
 
 //exercicíos:04
-let Numbers = [1,2,3,4,5,6,]
-console.log(Numbers.length)
-console.push(7)
-Numbers.splice(3,2)
-console.log(Numbers.length)
-alert()
+let numbers = [1,2,3,4,5,6]
+console.log(numbers.length)
+numbers.push(7)
+numbers.splice(3,2)
+console.log(numbers.length)
+console.log(numbers)
