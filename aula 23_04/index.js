@@ -132,14 +132,14 @@ Resposta: O preço da fruta  Pêra  é  R$  5.5
 //Exercicíos 03:
 //Leia o código abaixo:
 
-const numero = Number(prompt("Digite o primeiro número."))
+//const numero = Number(prompt("Digite o primeiro número."))
 
-if(numero > 0) {
-  console.log("Esse número passou no teste")
-	let mensagem = "Essa mensagem é secreta!!!"
-}
+//if(numero > 0) {
+//console.log("Esse número passou no teste")
+	//let mensagem = "Essa mensagem é secreta!!!"
+//}
 
-console.log(mensagem)
+//console.log(mensagem)
 /*
 a) O que a primeira linha está fazendo?
 Resposta: Digite o primeiro número
@@ -150,11 +150,40 @@ E se fosse o número -10?
 Resposta:
 
 c) Haverá algum erro no console? Justifique usando os conceitos de bloco ou escopo.
-Resposta:
-
+Resposta: Tem que tirar os colchetes antes do console ou colocar após o console.
 
 
 */
+//Exercícios de escrita de código:
+// Declara Variáveis:
+let idade 
+// Lê valores do usúario:
+idade = prompt("Qual a sua idade: ")
+if (idade >= 18){
+  alert(`Você pode dirigir`)
+} else {
+  alert(`Você não pode dirigir.`)
+}
+/*1. Faça um programa que pergunta ao usuário qual a idade dele e imprima no console se ele/ela pode dirigir (apenas maiores de idade).
+    
+a) Faça um `prompt` para receber a idade do usuário e guarde em uma variável.
+    
+b) Garanta que essa variável é do tipo `Number`, você deve usar o cast para number para isso.
+    
+c) Agora veja se essa idade do usuário corresponde à idade mínima que permite dirigir. 
+Se sim, imprima no console `"Você pode dirigir"`, caso contrário,
+imprima `"Você não pode dirigir."`
+*/
+
+
+//Exercicíos 02: ------------------------------------------------------------------------------
+
+/*Agora faça um programa que verifica que turno do dia um aluno estuda. 
+Peça para digitar M (matutino) ou V (Vespertino) ou N (Noturno). 
+Imprima no console a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!".
+Utilize o bloco if/else*/
+
+
 
 
 
