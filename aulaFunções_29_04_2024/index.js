@@ -1,15 +1,17 @@
 
 // AULA DE FUNÇÕES DIA: 29/04/2024
 
+//EXERCICÍOS: 01 FUNÇÕES
 /*function imprimirOlaMundo(){
 alert("olá Mundo!")
-
 }
 imprimirOlaMundo()
 imprimirOlaMundo()
 imprimirOlaMundo()
 */
 
+//--------------------------------------------------------------------------------------------
+//EXERCICÍOS: 02 FUNÇÕES
 /*function imprimirNome(nome){
 alert(`Olá ${nome}`)
 }
@@ -20,13 +22,12 @@ NomeUser = prompt("Digite seu nome:")
 imprimirNome(NomeUser)
 NomeUser = prompt("Digite seu nome:")
 imprimirNome(NomeUser)
-
 */
 
+//-------------------------------------------------------------------------------------------
 
-//EXERCICÍOS :03 FUNÇÕES
-// RECEBA DOIS NUMEROS E  RETORNE A SOMA ENTRE ELES:
-
+//EXERCICÍOS: 03 FUNÇÕES
+//RECEBA DOIS NUMEROS E  RETORNE A SOMA ENTRE ELES:
 
 function somaNum(num1,num2){
     let soma = num1 + num2
