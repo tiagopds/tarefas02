@@ -11,7 +11,7 @@ minhaFuncao(10)*/
 //a) O que vai ser impresso no console? resposta:10,50
 /*b) O que aconteceria se retirasse os dois console.log e simplesmente invocasse 
 a função minhaFuncao(2) e minhaFuncao(10)? O que apareceria no console?
- resposta: Não vai imprimir nada porque não tem o console */ 
+ resposta: Não vai imprimir nada porque não tem o console */
 
 //-----------------------------------------------------------------------------------------
 
@@ -63,19 +63,19 @@ console.log(`Me chamo ${nome}, tenho${idade} anos, moro${ondeMora}cidade, trabal
 
 //-----------------------------------------------------------------------------------------------------------------------------------
 
-//b)Agora escreva uma função que receba 4 parâmetros que correspondem às informações de uma pessoa: 
-//o nome (string), 
-//a idade (number), 
-//a cidade (string) 
+//b)Agora escreva uma função que receba 4 parâmetros que correspondem às informações de uma pessoa:
+//o nome (string),
+//a idade (number),
+//a cidade (string)
 //e uma profissão (string). Ela deve retornar uma string que unifique todas as informações da pessoa em uma só mensagem com o template:
 
-function parametros(nome,idade,cidade,profissão,){
-
-console.log(`Me chamo ${nome} tenho ${idade} anos, moro em ${cidade} e trabalho de ${profissão}`)
-
+function parametros(nome, idade, cidade, profissão) {
+    console.log(
+        `Me chamo ${nome} tenho ${idade} anos, moro em ${cidade} e trabalho de ${profissão}`
+    );
 }
-let nome = prompt("Digite seu nome:")
-let idade = prompt("Digite sua idade:")
-let cidade = prompt("Digite sua cidade:")
-let profissão = prompt("Digite sua profissão")
-parametros(nome,idade,cidade,profissão,)
+let nome = prompt("Digite seu nome:");
+let idade = prompt("Digite sua idade:");
+let cidade = prompt("Digite sua cidade:");
+let profissão = prompt("Digite sua profissão");
+parametros(nome, idade, cidade, profissão);
