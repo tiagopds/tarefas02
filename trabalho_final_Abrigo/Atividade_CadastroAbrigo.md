@@ -1,4 +1,4 @@
-/*# Trabalho Final - Abrigos
+# Trabalho Final - Abrigos
 
 Olá! Você foi contratado para desenvolver um programa em Javascript que ajude a população em situação de rua a encontrar abrigos temporários em dias frios. O programa deve utilizar o comando "prompt" para receber dados de entrada dos usuários.
 
