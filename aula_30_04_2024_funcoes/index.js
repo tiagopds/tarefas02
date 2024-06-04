@@ -79,3 +79,5 @@ let idade = prompt("Digite sua idade:")
 let cidade = prompt("Digite sua cidade:")
 let profissão = prompt("Digite sua profissão")
 parametros(nome,idade,cidade,profissão,)
+
+//----------------------------------------------------------------------------------------------
