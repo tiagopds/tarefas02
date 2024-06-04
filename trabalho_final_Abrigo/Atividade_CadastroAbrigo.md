@@ -55,4 +55,4 @@ CÓDIGO |         NOME         |              ENDEREÇO              |   TELEFON
 ---------------------------------------------------------------------------------------------------------
 ```
 
-1. **Sair:** o programa deve encerrar seu funcionamento.*/
+1. **Sair:** o programa deve encerrar seu funcionamento.
