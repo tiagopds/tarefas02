@@ -1,4 +1,4 @@
-/*Exercícios de interpretação de código: Objetos
+/*                   Exercícios de interpretação de código: Objetos
 Tente responder os exercícios dessa seção sem executar o código. Se ficar muito difícil,
 pode rodar no seu computador **para analisar e pensar sobre o resultado.**
 */
@@ -80,8 +80,8 @@ undefined
 
 //------------------------------------------------------------------------------------------------------------------
 
-// Exercícios de escrita de código:
-/*1.Resolva os passos a seguir:   
+//                                          Exercícios de escrita de código:
+/* 1. Resolva os passos a seguir:   
 a) Crie um objeto. Ele deve conter duas propriedades:
 nome (string) e apelidos (um array que sempre terá exatamente **três apelidos**). 
 Depois, escreva uma função que recebe como entrada um objeto e imprime uma mensagem no modelo abaixo**:**
@@ -89,20 +89,20 @@ Depois, escreva uma função que recebe como entrada um objeto e imprime uma men
 */
 
 /*const pessoa = {
-   nome: "Vitor Hugo", 
-   apelidos: ["Vitinho", "Vitão", "Vit"]
+nome: "Vitor Hugo", 
+apelidos: ["Vitinho", "Vitão", "Vit"]
 }
 */
-// Exemplo de saída
+//                                    Exemplo de saída
 //"Eu sou Vitor, mas pode me chamar de: Vitinho, Vitão ou Vit"
 
 const pessoa = {
     nome: "Tiago", 
     apelidos: ["Tiagao", "Ti", "Tiaguinho"]
 
- }
- console.log("Eu sou " + pessoa.nome)
- console.log(", mas pode me chamar: " +  pessoa.apelidos)
+}
+console.log("Eu sou " + pessoa.nome)
+console.log(", mas pode me chamar: " +  pessoa.apelidos)
 
 //b)Agora, usando o operador spread, crie um novo objeto mantendo o valor da propriedade nome, 
 //mas com uma nova lista de três apelidos.
@@ -111,7 +111,7 @@ const pessoa = {
 
 //------------------------------------------------------------------------------------------------------------------
 
-/* 2.Resolva os passos a seguir: 
+/*                                  2.Resolva os passos a seguir: 
     
     a) Crie dois objetos diferentes com as seguintes propriedades: nome, idade e profissão. 
     
@@ -142,7 +142,7 @@ const pessoa = {
 
 //-----------------------------------------------------------------------------------------------------------------
 
-/*3. Resolva os passos a seguir: 
+/*                                    3. Resolva os passos a seguir: 
     
     a) Crie uma variável de escopo global que guarde um `array` vazio chamada `carrinho`
     
