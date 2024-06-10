@@ -6,7 +6,7 @@ let abrigos = []
 // let =   Permite armazenar cálculos intermediários, valores ou definir nomes dentro de uma fórmula.
 let menu   
 const listarAbrigos = []  // const = Cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura.
-while (menu !== 5) { // While = Testa a condição; Se a condição for falsa então pula todos os comandos do bloco.
+while (menu !== 4) { // While = Testa a condição; Se a condição for falsa então pula todos os comandos do bloco.
     menu = Number(
     //prompt = Ação de enviar comandos de texto, imprimi o texto digitado.
         prompt(`===== ABRIGOS TEMPORÁRIOS =====  
@@ -27,6 +27,7 @@ while (menu !== 5) { // While = Testa a condição; Se a condição for falsa en
     case 1: 
         cadastrar()
         break; // Break = Permite um controle adicional sobre os laços de repetição.
+            // Break = ele encerra o loop.
     case 2:
         listar()
         break;
@@ -41,7 +42,7 @@ while (menu !== 5) { // While = Testa a condição; Se a condição for falsa en
         break;
   }
 
-function cadastrar() { // functions retornam valores 
+function cadastrar() { // functions =  retornam valores 
     const nome = prompt("Digite o nome do abrigo")
     const endereco = prompt("Digite a rua, número e bairro do abrigo")
     const cidade = prompt("Digite a cidade do seu abrigo:").toLowerCase()
@@ -74,9 +75,9 @@ function listar() {
 }
     
 function buscarAbrigo() {
-if (abrigos.length === 0) {
+if (abrigos.length === 0) { // if = se a informação for verdadeira 
     alert("Ainda não existem abrigos cadastrados na sua cidade.");
-} else {
+} else { // se for falsa ele continua a pesquisa.
     const localizarAbrigo = prompt("Digite sua cidade").toLowerCase();
     // .toLowerCase = Converter strings em sua versão em letras minúsculas.
     let mensagem = 
@@ -94,7 +95,7 @@ if (abrigos.length === 0) {
             mensagem += "\n" + abrigo.nome + " " +  abrigo.endereco + " " + abrigo.cidade + " " + abrigo.telefone + " " + abrigo.capacidade
         }
     }
-    alert(mensagem); // Exibe a mensagem final.
+    alert(mensagem); // Exibe a mensagem final no terminal.
     }
 }
 }
